@@ -1,0 +1,28 @@
+ 
+12/11:
+
+1. Customer.cpp Line 10
+2. Change pointer to reference
+3. Class Customer/VegetarianCustomer/order  ->  /**find the first veg dish in the menu*/
+    Should be the vegetarian dish with the smallest id in the menu and NOT the FIRST veg dish in the menu
+4. Class Customer/VegetarianCustomer/order - What if there is no non-alcoholic beverage in the menu? meaning if idOfTheExpBvG == -1 ?
+5. Class Customer - Why does class member orderNumber is needed? We should use the indexes as IDs for orders per customer
+6. Added getTables() function in class Restaurant
+7. Class Table/getCustomer() - added "return nullptr;" if not found
+
+
+13/11:
+1. added addOrder(int costemerId,int dishId , const std::vector<Dish> &menu) function in class Table in order to create a new pair in the order list
+2. finished class close in Action
+3. finished class closeAll in Action
+4. completed closeTable in Table class
+5. finished class printMenu in Action
+6. finished class PrintTableStatus in Action
+
+
+
+
+
+
+
+
